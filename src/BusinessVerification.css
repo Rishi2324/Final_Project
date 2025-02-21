@@ -1,0 +1,99 @@
+/* Dark theme for the BusinessVerification component */
+.verification-container {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .mee{
+    width: 200px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #00bcd4; /* Bright accent color */
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #f5f5f5;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .loading-indicator {
+    text-align: center;
+    font-size: 18px;
+    color: #ff9800;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #cfd8dc;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="file"] {
+    padding: 12px;
+    border: 2px solid #333;
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    border-color: #00bcd4;
+    outline: none;
+  }
+  
+  button {
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0097a7;
+  }
+  
+  button:active {
+    background-color: #00838f;
+  }
+  
+  form input[type="file"] {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .verification-container {
+      padding: 15px;
+    }
+    
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

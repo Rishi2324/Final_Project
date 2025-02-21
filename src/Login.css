@@ -1,0 +1,94 @@
+/* Container for the login form */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #171717; /* Dark background */
+}
+
+/* The Box containing the login form */
+.login-box {
+  background-color: #252525; /* Slightly lighter than the background */
+  border-radius: 15px;
+  padding: 40px;
+  width: 350px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.login-box:hover {
+  transform: scale(1.05);
+  border: 2px solid #ff00ff; /* Neon pink border */
+  box-shadow: 0 0 20px #ff00ff;
+}
+
+/* Login Title */
+.login-title {
+  text-align: center;
+  color: #00b5e2; /* Neon blue */
+  margin-bottom: 20px;
+  font-size: 29px;
+  font-weight: bold;
+  text-shadow: 0 0 10px #00b5e2, 0 0 20px #00b5e2;
+}
+
+/* Glowing Text Effect */
+.glow-text {
+  color: #ff00ff; /* Neon Pink */
+  text-shadow: 0 0 8px #ff00ff, 0 0 16px #ff00ff;
+}
+
+/* Input Fields */
+
+.login-inputt{
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-inputt:focus {
+  outline: none;
+  background-color: #3c3c3c;
+  box-shadow: 0 0 5px 2px #00b5e2;
+}
+
+/* Buttons */
+.login-btnn,
+.signup-btnn {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #00b5e2;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-btnn:hover,
+.signup-btnn:hover {
+  background-color: #252525;
+  transform: scale(1.05);
+  border: 2px solid #ff00ff; /* Neon pink border */
+  box-shadow: 0 0 10px #ff00ff;
+}
+
+/* Error Message */
+.login-message {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
